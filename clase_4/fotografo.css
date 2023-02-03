@@ -1,0 +1,19 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+    margin: 1.4%;
+}
+
+h1 {
+    width: 470px;
+    margin: left;
+    font-size: 40px;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    padding: 0px 0px 9px 0px;
+    border-bottom: 2px solid red;
+}

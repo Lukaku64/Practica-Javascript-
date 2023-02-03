@@ -1,0 +1,61 @@
+.verde {
+    background-color: green;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.violeta {
+    background-color: blueviolet;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verdee {
+    background-color: lime;
+    border: 1px solid orange;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.aliceblue {
+    background-color: darkcyan;
+}
+ .salmon {
+    background-color: salmon;
+}
+
+.terracota {
+    background-color: darkgoldenrod;
+}
+
+.skyblue {
+    background-color: #48e;
+}
+
+.container-fluid {
+    background-color: #48e;
+}
+
+#carouselExampleCaptions {
+    width: 30%;
+}
+
+#card1 {
+    margin-left: 40%;
+}
+
+.carrusel {
+    width: 30%;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 24px;
+}
+
+.carrusel .item1 {
+    scroll-snap-align: start;
+}

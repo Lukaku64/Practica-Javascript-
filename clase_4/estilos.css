@@ -1,0 +1,37 @@
+div {
+    border: 2px solid red;
+    height: 200px;
+
+}
+
+#uno {
+    position: static;
+}
+
+#dos {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: yellow;
+}
+
+#tres {
+    position: fixed;
+    background-color: lime;
+    top: 100px;
+    left: 50px;
+    /* el z-index: el valor que ingreses si es positivo o negativo va 
+    a estar atras o delante del contenido*/
+    z-index: -2;
+}
+
+#cuatro {
+    position: relative;
+}
+
+#cuatro #cinco {
+    position: absolute;
+    background-color: purple;
+    bottom: 10px;
+    right: 20px;
+}

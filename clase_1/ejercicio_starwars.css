@@ -1,0 +1,42 @@
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+}
+
+.Aquellos {
+    color: orange;
+}
+
+.Imperio {
+    background-color: red;
+}
+
+.Rebeldes {
+    background-color: blue;
+}
+
+#darth_vader {
+    font-size: 146%;
+}
+
+#skywalker {
+    font-size: 146%;
+    font-style: italic;
+}
+
+.soldados {
+    border: dotted;
+    letter-spacing: 1234%;
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.Naves {
+    text-transform: uppercase;
+}
+
+.Droides {
+    text-align: center;
+}

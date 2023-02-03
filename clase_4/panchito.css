@@ -1,0 +1,35 @@
+
+#pancho {
+    text-align: center;
+    margin: 100px 480px 100px 480px;
+}
+
+.pan {
+    background-color: #d39044;
+    color: #d39044;
+    height: 100px;
+}
+
+#salchicha {
+    background-color: #ad382f;
+    height: 80px;
+    color: #ad382f;
+    margin: 0px -10px 0px -10px;
+    border-radius: 100px 100px 100px 100px;
+}
+
+#pan_arriba {
+    margin: 30px 30px 0px 30px;
+    border-bottom: 10px solid #6d4921;
+    border-radius: 100px 100px 0px 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#pan_abajo {
+    margin: 0px 30px 30px 30px;
+    border-top: 10px solid #6d4921;
+    border-radius: 0px 0px 100px 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

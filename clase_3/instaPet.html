@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insta Per</title>
+        
+    </head>
+    <body>
+        <h1>La Red social de tu mascota</h1><br><br><br>
+        <h3>Ingresa los datos tu mascota para poder ingresar</h3><br><br>
+        <form action="https://formspree.io/f/xwkzezqy"
+        method="POST">
+            <fieldset>
+                <label>Nombre de la Mascota
+                    <input type="text" name="nombreMascota" placeholder="Halfonso" required>
+                </label> <br>
+                <label for="edad_mascota">Edad de la Mascota</label>
+                <input id="edad_mascota" type="text" name="edadMascota" placeholder="4 Años" required><br>
+                <label for="color_mascota">Color de tu Mascota</label>
+                <input type="color" name="colorMascota" id="color_mascota" ><br>
+                <label>Correo Electronico
+                    <input type="email" name="correoElectronico" placeholder="gatitosSalvadore@420.com" required>
+                </label><br>
+                <label for="Contraseña">Contraseña</label>
+                <input id="Contraseña" type="password" name="contraseña" placeholder="tuContraseña" required><br><br>
+                <div>
+                    <label for="tipo_mascota">Tipo de Mascota</label>
+                   <select name="tipoMascota" id="tipo_mascota">
+                    <option value="G">Gato</option>
+                    <option value="P">Perro</option>
+                    <option value="L">Loro</option>
+                    <option value="C">Caballo</option>               
+                   </select>
+                </div><br>
+                <span>
+                    <label for="macho">Macho:</label>
+                    <input type="radio" name="sexo" id="macho" value="M">
+                    <label for="hembra">Hembra</label>
+                    <input type="radio" name="sexo" id="hembra" value="H">
+                </span><br> <br>
+                   
+                <label>Cuentanos como es tu mascota: <br>
+                    <textarea name="descripcion" cols="40" rows="10" placeholder="Ej: Mi gato tiene el pelo como si fuera una esponja y ronronea por comida a cada rato"></textarea>
+                </label><br><br>
+                <label>Bases y condiciones
+                    <input type="checkbox" name="bases\_y\_condiciones" value="acepta">
+                </label><br><br>
+                <input type="submit"><br>
+            </fieldset>
+        </form>
+    </body>
+</html>

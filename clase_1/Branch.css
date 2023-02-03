@@ -1,0 +1,35 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.padre {
+    
+    height: 550px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.hijo {
+   
+    width: 420px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 6em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Inria Serif', serif;
+    font-size: 155%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Inria Serif', serif;
+}

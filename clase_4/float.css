@@ -1,0 +1,46 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navbar {
+    background-color: #118ab2;
+}
+
+#contenido {
+    width: 70%;
+    background-color: #06d6a0;
+    float: left;
+}
+
+#sidebar {
+    width: 30%;
+    background-color: #ef476f;
+    float: left;
+}
+
+#sidebar0 {
+    width: 30%;
+    background-color: #0a4270;
+    float: left;
+}
+
+#sidebar1 {
+    width: 30%;
+    background-color: #2bad1a;
+    float: left;
+}
+
+#sidebar2 {
+    width: 30%;
+    background-color: #c5c217;
+    float: left;
+
+}
+
+#sidebar3 {
+    width: 30%;
+    background-color: #c626db;
+    float: left;
+
+}
