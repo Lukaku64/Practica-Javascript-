@@ -22,3 +22,9 @@ console.log(objeto["clave 5"]);
 console.log(objeto.clave1);
 // console.log(objeto.4clave);
 // console.log(objeto.clave 5);
+
+// Si bien Dot notation es más cómodo y rápido de escribir, es un poco más limitado porque:
+// 1. No acepta Variables.
+// Por ejemplo, si escribiéramos auto.propiedad, va a buscar el texto propiedad de forma literal.
+// Cuando utilicemos loops con Variables que cambien de valor, se va a notar más este problema.
+// 2. No nos permite acceder a Propiedades que tengan números al principio o espacios.
